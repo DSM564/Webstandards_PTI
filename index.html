@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor de Inglês - Fluência e Confiança</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9fdfd;
+    }
+    header {
+      background: linear-gradient(135deg, #6EC1E4, #A7E9AF);
+      color: #033046;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 { font-size: 2.5rem; margin: 0; }
+    header p { font-size: 1.2rem; }
+    header .btn {
+      background: #033046;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    section h2 { color: #033046; margin-bottom: 20px; }
+    .servicos, .beneficios, .depoimentos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      flex: 1 1 250px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+    }
+    form input, form textarea, form button {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    form button {
+      background: #6EC1E4;
+      color: #033046;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background: #033046;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      section { padding: 30px 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Professor de Inglês Daniel Meira</h1>
+    <p>Aprenda inglês com confiança e fluência</p>
+    <a href="#contato" class="btn">Agende sua aula experimental</a>
+  </header>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou professor de inglês com mais de 8 anos de experiência no ensino de jovens e adultos. Ajudo alunos a conquistarem fluência com aulas dinâmicas, personalizadas e práticas.</p>
+  </section>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="card">Aulas particulares presenciais</div>
+      <div class="card">Aulas online interativas</div>
+      <div class="card">Preparação para provas e entrevistas</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Vantagens e Benefícios</h2>
+    <div class="beneficios">
+      <div class="card">Metodologia personalizada</div>
+      <div class="card">Horários flexíveis</div>
+      <div class="card">Prática focada em conversação</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Depoimentos</h2>
+    <div class="depoimentos">
+      <div class="card">“Em apenas 6 meses consegui evoluir minha conversação!” – Marina</div>
+      <div class="card">“Passei em uma entrevista internacional graças às aulas.” – Felipe</div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <input type="tel" placeholder="Seu telefone">
+      <textarea rows="4" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Professor de Inglês Daniel Costa | WhatsApp: (21) 98888-8888</p>
+  </footer>
+</body>
+</html>
